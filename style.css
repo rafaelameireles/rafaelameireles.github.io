@@ -1,0 +1,30 @@
+h2 {
+    color: green;
+    font-size: 2em;
+  }
+
+  body {
+    background-color: rgb(255, 400, 200);
+    font-size: 20px;
+  }
+
+  #paragrafoapresentacao {
+    background-color: aqua;
+  }
+  #nomecompleto {
+    color: blueviolet;
+  }
+
+  .list-style{
+    background-color: rgb(150, 17, 228);
+    color: rgb(224, 151, 15);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: line-through;
+  }
+  
+  p{
+    font-family: monospace;
+  }
