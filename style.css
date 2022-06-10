@@ -1,43 +1,168 @@
-    
-    
 
 
-    h1 {
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    
-    h2 {
-    color: rgb(2, 48, 2);
-    font-size: 2em;
-  }
 
-  body {
-    background-color: #dda15e;
-    font-size: 20px;
-  }
+*body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .tituloHabilidades {
-      color: orangered;
-  }
 
-  #paragrafoapresentacao {
- /*    background-color: aqua; */
-  }
-  #nomecompleto {
-    color: rgb(2, 48, 2);
-  }
 
-  .list-style {
-    color: rgb(2, 48, 2);
-    font-weight: bold;
-    font-style: italic;
-    line-height: 40px;
-    text-align::after;
-    text-decoration: none;
-    
-    
-  }
-  
-  p{
-    font-family: monospace;
-  }
+.caixa-banner {
+ 
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  color: rgb(58, 104, 45);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #d4ba63;
+
+}
+
+.titulo1{
+  font-size: 2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitulo1 {
+  font-size: 26px;
+  text-shadow: 2px 2px rgb(233, 223, 170); 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-sobre {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a78c34;
+  font-weight: bold;
+  background-color: rgb(253,0249,253);
+  padding: 8px 20px;
+  border-radius: 15px;
+
+}
+
+.titulo-sobre{
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(47, 66, 42);
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/*Sobre--------*/
+
+.caixa-sobre  {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+
+.lado1 {
+  width: 40%;
+  justify-content: space-between;
+}
+
+.lado1 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.link-portfolio{
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f3eddd;
+  background-color: rgb(47, 66, 42);
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-top: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/
+
+/*Habilidades-------*/
+
+.lado2 {
+  width:20%;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.8;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #a78c34; 
+
+}
+
+li{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(47, 66, 42);
+
+}
+
+/* Links -------*/
+
+.caixa-links{
+  margin-top: 120px;
+  margin-bottom: 50px; 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.links{
+  background-color: #a78c34;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(238, 222, 153);
+  border-radius: 2rem;
+
+
+}
+
+.caixa-links p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .9rem;
+
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.rodape {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(47, 66, 42);
+  text-align: center;
+  background-color: #d4ba63;
+  padding: 1rem;
+}
+
+.nome-trybe {
+  color: rgb(16, 80, 16);
+}
